@@ -1,0 +1,49 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "autosave": "on_focus_change",
+  "show_edit_predictions": false,
+  "helix_mode": false,
+  "vim": {
+    "toggle_relative_line_numbers": true,
+  },
+  "vim_mode": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+  },
+  "tab_bar": { "show": true, "show_nav_history_buttons": false },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+  "cursor_shape": "underline",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Mirage",
+  },
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null,
+    },
+  },
+}
