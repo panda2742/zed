@@ -53,5 +53,23 @@
     "bindings": {
       "ctrl-enter": "editor::NewlineBelow"
     }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "ctrl-shift-enter": null
+    }
+  },
+  {
+    "context": "AcpThread > Editor",
+    "bindings": {
+      "ctrl-shift-enter": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-enter": "editor::NewlineAbove"
+    }
   }
 ]
