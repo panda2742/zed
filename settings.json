@@ -33,7 +33,7 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Ayu Mirage",
+    "dark": "Gruvbox Dark Soft",
   },
   "diagnostics": {
     "button": true,
