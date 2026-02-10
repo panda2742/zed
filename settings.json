@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "autosave": "on_focus_change",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
   "show_edit_predictions": false,
   "helix_mode": false,
   "vim": {
@@ -31,9 +35,9 @@
   "ui_font_size": 16,
   "buffer_font_size": 14,
   "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Ayu Mirage",
+    "mode": "dark",
+    "light": "macOS Classic Light",
+    "dark": "macOS Classic Dark",
   },
   "diagnostics": {
     "button": true,
