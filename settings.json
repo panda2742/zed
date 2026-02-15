@@ -7,6 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "never"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "never"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "icon_theme": "Symbols Icon Theme",
   "autosave": {
     "after_delay": {
       "milliseconds": 1000
@@ -36,8 +54,8 @@
   "buffer_font_size": 14,
   "theme": {
     "mode": "dark",
-    "light": "macOS Classic Light",
-    "dark": "macOS Classic Dark",
+    "light": "Rosé Pine Dawn",
+    "dark": "Rosé Pine Moon",
   },
   "diagnostics": {
     "button": true,
