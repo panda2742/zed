@@ -7,28 +7,28 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Material Icon Theme",
   "lsp": {
     "vtsls": {
       "settings": {
         "typescript": {
           "updateImportsOnFileMove": {
-            "enabled": "never"
-          }
+            "enabled": "always",
+          },
         },
         "javascript": {
           "updateImportsOnFileMove": {
-            "enabled": "never"
-          }
-        }
+            "enabled": "always",
+          },
+        },
       },
-      "enable_lsp_tasks": true
-    }
+      "enable_lsp_tasks": true,
+    },
   },
-  "icon_theme": "Symbols Icon Theme",
   "autosave": {
     "after_delay": {
-      "milliseconds": 1000
-    }
+      "milliseconds": 100,
+    },
   },
   "show_edit_predictions": false,
   "helix_mode": false,
@@ -49,13 +49,14 @@
     "enabled": true,
     "coloring": "indent_aware",
   },
-  "cursor_shape": "underline",
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
+  "ui_font_size": 14,
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "buffer_font_family": "JetBrains Mono",
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "Ayu Mirage",
+    "dark": "VSCode Dark Modern",
   },
   "diagnostics": {
     "button": true,
@@ -68,4 +69,5 @@
       "max_severity": null,
     },
   },
+  "disable_ai": true,
 }
