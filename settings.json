@@ -7,7 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Bearded Icon Theme",
+  "theme": "Rosé Pine",
   "lsp": {
     "vtsls": {
       "settings": {
@@ -31,15 +32,6 @@
     },
   },
   "show_edit_predictions": false,
-  "helix_mode": false,
-  "vim": {
-    "toggle_relative_line_numbers": true,
-  },
-  "vim_mode": false,
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
-  },
   "tabs": {
     "file_icons": true,
     "git_status": true,
@@ -49,15 +41,8 @@
     "enabled": true,
     "coloring": "indent_aware",
   },
-  "ui_font_size": 14,
-  "ui_font_family": "JetBrains Mono",
-  "buffer_font_size": 13,
-  "buffer_font_family": "JetBrains Mono",
-  "theme": {
-    "mode": "dark",
-    "light": "Ayu Light",
-    "dark": "VSCode Dark Modern",
-  },
+  "buffer_font_size": 12.5,
+  "buffer_font_family": "Courier Prime",
   "diagnostics": {
     "button": true,
     "include_warnings": true,
