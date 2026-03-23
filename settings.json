@@ -8,7 +8,11 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "icon_theme": "Bearded Icon Theme",
-  "theme": "Rosé Pine",
+  "theme": {
+    "mode": "light",
+    "light": "Rosé Pine Dawn",
+    "dark": "Rosé Pine"
+  },
   "lsp": {
     "vtsls": {
       "settings": {
