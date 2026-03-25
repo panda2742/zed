@@ -9,9 +9,9 @@
 {
   "icon_theme": "Bearded Icon Theme",
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Rosé Pine Dawn",
-    "dark": "Rosé Pine"
+    "dark": "Rosé Pine Moon",
   },
   "lsp": {
     "vtsls": {
@@ -45,8 +45,8 @@
     "enabled": true,
     "coloring": "indent_aware",
   },
-  "buffer_font_size": 12.5,
-  "buffer_font_family": "Courier Prime",
+  "buffer_font_size": 13,
+  "buffer_font_family": "JetBrains Mono",
   "diagnostics": {
     "button": true,
     "include_warnings": true,
@@ -59,4 +59,11 @@
     },
   },
   "disable_ai": true,
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+      },
+    },
+  },
 }
