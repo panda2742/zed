@@ -9,7 +9,7 @@
 {
   "icon_theme": "Bearded Icon Theme",
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "Rosé Pine Dawn",
     "dark": "Rosé Pine Moon",
   },
