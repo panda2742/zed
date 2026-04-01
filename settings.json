@@ -9,9 +9,9 @@
 {
   "icon_theme": "Bearded Icon Theme",
   "theme": {
-    "mode": "light",
-    "light": "Rosé Pine Dawn",
-    "dark": "Rosé Pine Moon",
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
   },
   "lsp": {
     "vtsls": {
