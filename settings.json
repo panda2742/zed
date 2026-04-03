@@ -7,12 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Bearded Icon Theme",
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "One Dark",
-  },
   "lsp": {
     "vtsls": {
       "settings": {
@@ -45,8 +39,6 @@
     "enabled": true,
     "coloring": "indent_aware",
   },
-  "buffer_font_size": 13,
-  "buffer_font_family": "JetBrains Mono",
   "diagnostics": {
     "button": true,
     "include_warnings": true,
