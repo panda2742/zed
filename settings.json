@@ -10,7 +10,7 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Ayu Dark"
+    "dark": "macOS Classic Dark",
   },
   "lsp": {
     "vtsls": {
@@ -63,4 +63,6 @@
       },
     },
   },
+  "buffer_font_size": 13,
+  "buffer_font_family": "JetBrains Mono",
 }
