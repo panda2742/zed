@@ -8,8 +8,8 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
+    "mode": "light",
+    "light": "macOS Classic Light",
     "dark": "macOS Classic Dark",
   },
   "lsp": {
