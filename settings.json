@@ -7,10 +7,28 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
   "theme": {
-    "mode": "light",
-    "light": "macOS Classic Light",
-    "dark": "macOS Classic Dark",
+    "mode": "dark",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Mocha - No Italics",
   },
   "lsp": {
     "vtsls": {
@@ -62,7 +80,15 @@
         "source.organizeImports": true,
       },
     },
+    "C": {
+      "tab_size": 4,
+      "hard_tabs": true,
+    },
+    "C++": {
+      "tab_size": 4,
+      "hard_tabs": true,
+    },
   },
   "buffer_font_size": 13,
-  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_family": "Courier Prime",
 }
