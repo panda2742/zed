@@ -7,7 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Bearded Icon Theme",
+  "helix_mode": false,
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "project_panel": {
     "dock": "left",
   },
@@ -27,8 +28,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Catppuccin Latte - No Italics",
-    "dark": "Catppuccin Frappé - No Italics",
+    "light": "Rosé Pine Dawn",
+    "dark": "Rosé Pine",
   },
   "lsp": {
     "vtsls": {
@@ -89,8 +90,13 @@
       "hard_tabs": true,
     },
   },
-  "buffer_font_size": 12,
-  "buffer_font_family": "JetBrains Mono",
-  "ui_font_size": 12,
-  "ui_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "buffer_font_family": "Monaspace Neon NF",
+  "ui_font_size": 14,
+  "ui_font_family": "Monaspace Radon NF",
+  "terminal": {
+    "shell": {
+      "program": "/usr/bin/fish",
+    },
+  },
 }
