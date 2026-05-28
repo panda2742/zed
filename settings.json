@@ -28,8 +28,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Rosé Pine Dawn",
-    "dark": "Rosé Pine",
+    "light": "Tokyo Night Light",
+    "dark": "Tokyo Night Storm",
   },
   "lsp": {
     "vtsls": {
