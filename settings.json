@@ -7,7 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "helix_mode": false,
   "icon_theme": "Soft Charmed Icons",
   "project_panel": {
     "dock": "left",
@@ -26,11 +25,7 @@
   "git_panel": {
     "dock": "left",
   },
-  "theme": {
-    "mode": "dark",
-    "light": "Panda",
-    "dark": "Panda",
-  },
+  "theme": "One Dark Pro",
   "lsp": {
     "vtsls": {
       "settings": {
@@ -91,9 +86,9 @@
     },
   },
   "buffer_font_size": 13,
-  "buffer_font_family": "Monaspace Neon NF",
+  "buffer_font_family": "JetBrains Mono",
   "ui_font_size": 14,
-  "ui_font_family": "Monaspace Radon NF",
+  "buffer_line_height": "standard",
   "terminal": {
     "shell": {
       "program": "/usr/bin/fish",
