@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "session": {
+    "trust_all_worktrees": true
+  },
   "icon_theme": "Soft Charmed Icons",
   "project_panel": {
     "dock": "left",
@@ -25,7 +28,11 @@
   "git_panel": {
     "dock": "left",
   },
-  "theme": "One Dark Pro",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Macchiato - No Italics"
+  },
   "lsp": {
     "vtsls": {
       "settings": {
