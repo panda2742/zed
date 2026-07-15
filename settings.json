@@ -7,10 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "existing_window",
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
-  "icon_theme": "Soft Charmed Icons",
+  "icon_theme": "Bearded Icon Theme",
   "project_panel": {
     "dock": "left",
   },
@@ -29,9 +30,9 @@
     "dock": "left",
   },
   "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte - No Italics",
-    "dark": "Catppuccin Macchiato - No Italics"
+    "mode": "dark",
+    "light": "Tokyo Night Light",
+    "dark": "Tokyo Night Storm",
   },
   "lsp": {
     "vtsls": {
@@ -79,6 +80,8 @@
   "disable_ai": true,
   "languages": {
     "TypeScript": {
+      "format_on_save": "on",
+      "formatter": "prettier",
       "code_actions_on_format": {
         "source.organizeImports": true,
       },
@@ -92,13 +95,14 @@
       "hard_tabs": true,
     },
   },
-  "buffer_font_size": 13,
-  "buffer_font_family": "JetBrains Mono",
-  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "helix_mode": false,
+  "ui_font_size": 15,
   "buffer_line_height": "standard",
+  "buffer_font_family": "Courier Prime",
   "terminal": {
     "shell": {
-      "program": "/usr/bin/fish",
+      "program": "fish",
     },
   },
 }
