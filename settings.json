@@ -11,7 +11,7 @@
   "session": {
     "trust_all_worktrees": true,
   },
-  "icon_theme": "Bearded Icon Theme",
+  "icon_theme": "Base Charmed Icons",
   "project_panel": {
     "dock": "left",
   },
@@ -31,8 +31,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Tokyo Night Light",
-    "dark": "Tokyo Night Storm",
+    "light": "Caelestia",
+    "dark": "Caelestia",
   },
   "lsp": {
     "vtsls": {
