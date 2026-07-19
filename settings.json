@@ -105,4 +105,7 @@
       "program": "fish",
     },
   },
+  "cursor_shape": "block",
+  "cursor_blink": false,
+  "ui_font_family": "Courier Prime",
 }
