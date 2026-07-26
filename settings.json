@@ -95,17 +95,10 @@
       "hard_tabs": true,
     },
   },
-  "buffer_font_size": 14,
-  "helix_mode": false,
-  "ui_font_size": 15,
   "buffer_line_height": "standard",
-  "buffer_font_family": "Courier Prime",
   "terminal": {
     "shell": {
       "program": "fish",
     },
   },
-  "cursor_shape": "block",
-  "cursor_blink": false,
-  "ui_font_family": "Courier Prime",
 }
