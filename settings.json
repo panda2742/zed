@@ -27,11 +27,12 @@
     "model_parameters": [],
   },
   "git_panel": {
+    "tree_view": true,
     "dock": "left",
   },
   "theme": {
-    "mode": "dark",
-    "light": "Caelestia",
+    "mode": "light",
+    "light": "One Light",
     "dark": "Caelestia",
   },
   "lsp": {
@@ -101,5 +102,7 @@
       "program": "fish",
     },
   },
-  "buffer_font_family": "JetBrains Mono"
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "buffer_font_family": "JetBrains Mono",
 }
