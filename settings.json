@@ -31,8 +31,8 @@
     "dock": "left",
   },
   "theme": {
-    "mode": "light",
-    "light": "One Light",
+    "mode": "system",
+    "light": "Caelestia",
     "dark": "Caelestia",
   },
   "lsp": {
